@@ -1,0 +1,24 @@
+def greet(name):
+    print(f"Hello {name}")
+
+greet("Vaibhav")
+
+def add(a,b):
+    return a + b
+a=int(input("Enter the a : "))
+b=int(input("Enter the b : "))
+result= add(a,b)
+print(result)
+
+
+def even_odd(num):
+    if num %2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+num=int(input("Enter the number:"))
+result=even_odd(num)
+print(f"{num} is {result}")
+
+
